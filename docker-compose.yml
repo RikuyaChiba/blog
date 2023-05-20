@@ -1,0 +1,14 @@
+version: '3.9'
+services:
+  backend:
+    working_dir: /usr/src/app
+    build: 
+      context: .
+      dockerfile: ./dockerfile/backend/Dockerfile
+    ports:
+      - target: 80
+      - published: 8010
+    volumes:
+      - type: bind
+        source: ./
+        target: /usr/src/app
