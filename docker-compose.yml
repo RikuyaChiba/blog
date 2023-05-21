@@ -6,9 +6,9 @@ services:
       context: .
       dockerfile: ./dockerfile/backend/Dockerfile
     ports:
-      - target: 80
-      - published: 8010
+      - "8010:80"
     volumes:
       - type: bind
-        source: ./
+        source: ./backend
         target: /usr/src/app
+    tty: true
