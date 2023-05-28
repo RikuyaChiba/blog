@@ -13,7 +13,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@next/mdx": "^13.4.4",
     "@uiw/react-md-editor": "^3.6.0",
     "next": "^13.4.3",
     "react": "^18.2.0",
