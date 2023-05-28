@@ -1,2 +1,3 @@
-const removeImports = require('next-remove-imports')();
-module.exports = removeImports({});
+// next.config.js
+const withMDX = require('@next/mdx')()
+module.exports = withMDX()
