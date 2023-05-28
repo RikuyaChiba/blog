@@ -13,7 +13,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@uiw/react-md-editor": "^3.6.0",
     "next": "^13.4.3",
+    "next-remove-imports": "^1.0.11",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
